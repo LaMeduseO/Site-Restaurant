@@ -1,0 +1,51 @@
+/* Réglage Généraux */
+
+@font-face {
+    font-family: Titre;
+    src: url();
+}
+
+@font-face {
+    font-family: Text;
+    src: url();
+}
+
+/* Suprimer toutes les marges par défauts pour ne pas être embété par celle-ci */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/* Palette de couleur*/
+
+/*pour les arrière-plans ou éléments forts*/
+    --couleur-Burger-Orange: #E76F2C;
+
+/*pour les boutons ou accents*/
+    --couleur-IDK: #FDBE3B;
+
+/*pour les titres ou textes foncés*/
+    --couleur-Smoky-Brown: #4A2E21;
+
+/*pour le texte clair ou les fonds doux*/
+    --couleur-Creamy-Beige: #FCE8D3;
+}
+
+#nav-bar{
+
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        padding: 10px;
+
+}
+
+#logo{
+    width: 10%;
+    
+}
+

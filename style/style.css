@@ -49,3 +49,60 @@
     
 }
 
+#nav{
+    position: fixed;
+    background-color: var(--couleur-Smoky-Brown);
+
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid var(--couleur-Smoky-Brown)4px;
+
+}
+
+
+#nav-bar{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-content: center;
+        padding: 5px;
+    
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width : 15%;
+}
+
+.nav-button{
+    font-size: 1.5rem;
+    display: block;
+    text-decoration: none;
+
+    /*background-color: ;
+    color: ;*/
+    padding: 5px;
+
+    width: 100%;
+    margin: 5px;
+
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.underline {
+    width : 0%;
+    height: 5px;
+    background-color: var(--couleur-Burger-Orange);
+    transition: width 700ms;
+}
+

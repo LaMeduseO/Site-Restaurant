@@ -28,9 +28,11 @@
 
 /*pour les titres ou textes foncés*/
     --couleur-Smoky-Brown: #4A2E21;
+    --couleur-Smoky-Brown-trans: #4a2e2100;
 
 /*pour le texte clair ou les fonds doux*/
     --couleur-Creamy-Beige: #FCE8D3;
+    --couleur-Creamy-Beige-trans: #fce8d300;
 }
 
 #nav-bar{
@@ -45,22 +47,34 @@
 }
 
 #logo{
-    width: 10%;
+    width: 7vh;
+    margin: 2%;
     
 }
 
-#nav{
+nav{
+    
     position: fixed;
-    background-color: var(--couleur-Smoky-Brown);
+    background-color: var(--couleur-Creamy-Beige-trans);
 
     width: 100vw;
+    z-index: 10;
+
     height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid var(--couleur-Smoky-Brown)4px;
+    border-bottom: solid var(--couleur-Smoky-Brown-trans)4px;
 
+    transition: background-color 500ms, border-bottom 500ms;
+
+}
+
+nav:hover{
+     background-color: var(--couleur-Creamy-Beige);
+     border-bottom: solid var(--couleur-Smoky-Brown)4px;
+     
 }
 
 
@@ -87,8 +101,8 @@
     display: block;
     text-decoration: none;
 
-    /*background-color: ;
-    color: ;*/
+    /*background-color: ;*/
+    color: var(--couleur-Creamy-Beige);
     padding: 5px;
 
     width: 100%;
@@ -96,7 +110,13 @@
 
     text-align: center;
     border-radius: 10px;
+
+    transition: color 500ms;
     
+}
+
+.nav-button:hover{
+    color: var(--couleur-Smoky-Brown);
 }
 
 .underline {

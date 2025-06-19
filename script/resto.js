@@ -9,7 +9,7 @@ function transition(currentLine) {
 }
 
 function transitionBack(currentLine) {
-    setTimeout(()=>{currentLine.style.width = '0%'}, 400)
+    setTimeout(()=>{currentLine.style.width = '0%'}, 100)
 }
 
 

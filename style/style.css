@@ -47,9 +47,13 @@
 }
 
 #logo{
-    width: 7vh;
+    width: 10vh;
     margin: 2%;
-    
+}
+
+#ClickAndCollect{
+    width: 10vh;
+
 }
 
 nav{
@@ -123,6 +127,6 @@ nav:hover{
     width : 0%;
     height: 5px;
     background-color: var(--couleur-Burger-Orange);
-    transition: width 700ms;
+    transition: width 500ms;
 }
 

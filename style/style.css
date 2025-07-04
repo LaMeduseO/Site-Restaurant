@@ -147,3 +147,51 @@ nav:hover{
 
 }
 
+
+
+                                                             /* A FAIRE */
+
+
+    /* Mettre les 2 image (Donnut-Accueil) , (Glace-Accueil) a la meme taille et réussir a éloigner de la marge */
+
+
+
+
+
+
+
+
+main{
+    display: block;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+
+    
+}
+
+#Donnut-Accueil{
+
+    width: 20%;
+    border-radius: 10px;
+
+    
+}
+
+#Glace-Accueil{
+    width: 20%;
+    border-radius: 10px;
+
+
+}
+
+#image-produit{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+

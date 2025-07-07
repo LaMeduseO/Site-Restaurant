@@ -144,6 +144,8 @@ nav:hover{
 
 #BurgerAc{
     width: 100%;
+    height: 100vh;
+    
 
 }
 
@@ -166,32 +168,38 @@ main{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-
-
     
 }
 
-#Donnut-Accueil{
+#petit-mots{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    width: 20%;
-    border-radius: 10px;
-
+    padding-top: 5%;
+    font-size: 2rem;
     
-}
-
-#Glace-Accueil{
-    width: 20%;
-    border-radius: 10px;
-
-
 }
 
 #image-produit{
-
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: start;
-    align-items: center;
+    align-items: start;
+}
+
+.image-produit{
+
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 20%;
+    border-radius: 10px;
+    
+    margin: 5%;
 
 }
 

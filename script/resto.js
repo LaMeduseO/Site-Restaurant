@@ -26,9 +26,6 @@ function BackTextColor(){
     button.forEach((e)=>{e.style.color="var(--couleur-Creamy-Beige)"})
 }
 
+
 nav.addEventListener("mouseover", ChangeTextColor)
 nav.addEventListener("mouseleave", BackTextColor)
-
-/*triggerBox.addEventListener("mouseover", transition)
-triggerBox.addEventListener("mouseleave", transitionBack)*/
-
